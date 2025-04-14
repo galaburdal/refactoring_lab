@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c203558-c8b0-47c0-8d30-3d5b50e39ac3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/original_code/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/original_code/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/refactored_code/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/refactored_code/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/refactoring_report.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/sonar-project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project1/tests/test_refactored.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/dish.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/kitchen_notifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/menu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/models/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/patterns/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/patterns/observer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/patterns/order_database_singleton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/patterns/order_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/test_lab4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/refactoring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/refactoring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project1/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="7c203558-c8b0-47c0-8d30-3d5b50e39ac3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in test_lab4.py.executor": "Run",
-    "Python tests.Python tests in test_refactored.py.executor": "Run",
-    "Python.client.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.menu.executor": "Run",
-    "Python.order.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_lab4.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_refactored.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.order.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="ENV_FILES" value="" />
