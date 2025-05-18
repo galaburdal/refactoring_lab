@@ -12,3 +12,6 @@ class Order:
 
     def calculate_total(self):
         return sum(dish.price for dish in self.dishes)
+
+    #refact
+    a=4

@@ -1,0 +1,84 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+skinparam classFontSize 14
+skinparam classAttributeFontSize 13
+skinparam classBackgroundColor #FDF6E3
+skinparam ArrowColor DarkSlateGray
+skinparam ClassBorderColor Black
+skinparam shadowing true
+
+' ==== Абстракція кави ====
+abstract class Coffee {
+  +get_description(): str
+  +get_cost(): float
+}
+
+' ==== Конкретні типи кави ====
+class Espresso {
+  +get_description(): str
+  +get_cost(): float
+}
+class Latte {
+  +get_description(): str
+  +get_cost(): float
+}
+class Americano {
+  +get_description(): str
+  +get_cost(): float
+}
+class Cappuccino {
+  +get_description(): str
+  +get_cost(): float
+}
+
+Coffee <|-- Espresso
+Coffee <|-- Latte
+Coffee <|-- Americano
+Coffee <|-- Cappuccino
+
+' ==== Декоратор ====
+abstract class CoffeeDecorator {
+  -coffee: Coffee
+  +get_description(): str
+  +get_cost(): float
+}
+
+Coffee <|-- CoffeeDecorator
+
+' ==== Конкретні інгредієнти ====
+class Milk {
+  +get_description(): str
+  +get_cost(): float
+}
+class Syrup {
+  +get_description(): str
+  +get_cost(): float
+}
+class WhippedCream {
+  +get_description(): str
+  +get_cost(): float
+}
+
+CoffeeDecorator <|-- Milk
+CoffeeDecorator <|-- Syrup
+CoffeeDecorator <|-- WhippedCream
+
+' ==== Фабрика ====
+class CoffeeFactory {
+  +create_coffee(type: str): Coffee
+}
+
+CoffeeFactory --> Coffee
+
+' ==== Фасад ====
+class CoffeeFacade {
+  -factory: CoffeeFactory
+  +order_coffee(type: str, ingredients: List[str]): Coffee
+}
+
+CoffeeFacade --> CoffeeFactory
+CoffeeFacade --> Coffee
+CoffeeFacade --> CoffeeDecorator
+
+@enduml
