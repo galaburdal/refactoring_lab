@@ -5,32 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8790361-fbe2-4a5a-ac66-e5e4035fdd6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Project2 ref.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/activity_diagram.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/coffee/base_coffee.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/coffee/factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/commands/cancel_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/commands/command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/commands/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/commands/place_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/decorators/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/order_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_integration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uml_diagram.puml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../refactoring/.idea/refactoring.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../refactoring/lab1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../refactoring/lab2.py" afterDir="false" />
