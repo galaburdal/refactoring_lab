@@ -1,0 +1,7 @@
+order_manager.OrderManager.list_orders
+false
+a069a2b1c31e542fe845a211b0409a4f
+builtins.__has_next
+builtins.iter
+builtins.next
+builtins.print

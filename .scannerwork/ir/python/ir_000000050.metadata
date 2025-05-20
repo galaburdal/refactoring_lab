@@ -1,0 +1,6 @@
+order_manager.OrderManager.add_order
+false
+65d9a1e8e008ea41c936b58eadc81939
+builtins.print
+==
+append

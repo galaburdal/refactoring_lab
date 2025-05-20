@@ -1,0 +1,9 @@
+factory.CoffeeFactory.create_coffee
+false
+14cb5ada8fba3cf94d28b99fd9c17e92
+base_coffee.Americano.__init__
+base_coffee.Cappuccino.__init__
+base_coffee.Espresso.__init__
+base_coffee.Latte.__init__
+==
+lower

@@ -1,0 +1,56 @@
+@startuml
+
+skinparam backgroundColor #ffffff
+skinparam ActivityBackgroundColor #E5F5FD
+skinparam ActivityBorderColor #2C3E50
+skinparam ArrowColor Black
+skinparam activityFontSize 14
+skinparam DefaultTextAlignment center
+
+start
+
+:Запуск програми;
+:Ініціалізація CoffeeFacade;
+:Очікування вибору типу кави;
+
+partition "Вибір кави" {
+    :Користувач обирає тип кави;
+    if (Тип кави валідний?) then (так)
+        :Створення кави через CoffeeFactory;
+    else (ні)
+        :Повернення помилки;
+        stop
+    endif
+}
+
+partition "Додавання інгредієнтів" {
+    :Запит користувача щодо інгредієнтів;
+    if (Обрано інгредієнти?) then (так)
+        :Додавання Milk?;
+        if (так) then
+            :Обгортання кави у Milk;
+        endif
+
+        :Додавання Syrup?;
+        if (так) then
+            :Обгортання кави у Syrup;
+        endif
+
+        :Додавання WhippedCream?;
+        if (так) then
+            :Обгортання кави у WhippedCream;
+        endif
+    else (ні)
+        :Пропуск додавання інгредієнтів;
+    endif
+}
+
+partition "Результат" {
+    :Виведення опису кави;
+    :Виведення загальної вартості;
+    :Повідомлення про успішне замовлення;
+}
+
+stop
+
+@enduml

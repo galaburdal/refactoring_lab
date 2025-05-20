@@ -1,0 +1,7 @@
+organization=galaburdal
+projectKey=refactoring_lab
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.63534
+dashboardUrl=https://sonarcloud.io/dashboard?id=refactoring_lab
+ceTaskId=AZbtHeVenYse2RV8jJVH
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZbtHeVenYse2RV8jJVH
