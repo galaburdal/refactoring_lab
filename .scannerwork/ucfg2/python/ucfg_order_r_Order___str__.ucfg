@@ -1,35 +1,0 @@
-
-order.Order.__str__V
-LC:\Users\ASUS\Desktop\3 курс 2 сем\Project2 ref\run\commands\order.py ("2*�
-2	 	(EV
-T
-	 	()
-%1"__id*<
-
-__unknown_file ( *
-order.Order"
-descriptionO
-M
-	6 	(?
-%2"__id*5
-
-__unknown_file (*
-order.Order"
-costz
-x
-	 	(E
-%3"__concat*
-	 	(	
-Order: *
-	 	()
-
-%1*
-	* 	(5
- | Total: $*
-	6 	(?
-
-%2"
-	 	(E
-
-%3B
-order.OrderH

@@ -1,42 +1,0 @@
-
-%place_order.PlaceOrderCommand.execute\
-RC:\Users\ASUS\Desktop\3 курс 2 сем\Project2 ref\run\commands\place_order.py	 	("2*�
-2
- 
-(*d
-b
-
- 
-(
-%1"__id*J
-
-__unknown_file (.*,
-place_order.PlaceOrderCommand"	
-managerb
-`
-
- 
-()
-%2"__id*H
-
-__unknown_file (,**
-place_order.PlaceOrderCommand"
-orderec
-
- 
-(*
-%3*"
-
-__unknown_file (
-
-%1*"
-
-__unknown_file (
-
-%22	add_order*
-3*4
-3
-place_order.py"
- (
-implicit returnB!
-place_order.PlaceOrderCommandH
